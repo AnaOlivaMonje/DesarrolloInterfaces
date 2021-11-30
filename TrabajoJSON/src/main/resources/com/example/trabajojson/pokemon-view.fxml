@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="967.0" style="-fx-background-image: url('https://external-preview.redd.it/T75BGz2JlRn_qsuIFw24ZacSCtiAQawcuzCWa51btDQ.jpg?auto=webp&amp;s=b85e4d470c3c327ade3dfefd9cd0e5b6918397df');" styleClass="-fx-background-image: url('https://external-preview.redd.it/T75BGz2JlRn_qsuIFw24ZacSCtiAQawcuzCWa51btDQ.jpg?auto=webp&amp;s=b85e4d470c3c327ade3dfefd9cd0e5b6918397df')" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajojson.HelloController">
+   <children>
+      <Label layoutX="37.0" layoutY="145.0" text="Seleccion de pokemon">
+         <font>
+            <Font name="Verdana Pro Cond Semibold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cajaPokemon" layoutX="51.0" layoutY="199.0" prefWidth="150.0" />
+      <Label layoutX="722.0" layoutY="145.0" text="Juegos disponibles">
+         <font>
+            <Font name="Verdana Pro Cond Semibold" size="18.0" />
+         </font></Label>
+      <TextArea fx:id="resultado" layoutX="697.0" layoutY="199.0" prefHeight="200.0" prefWidth="200.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="26.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="406.0" layoutY="145.0" text="Forma normal">
+         <font>
+            <Font name="Verdana Pro Semibold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagenSprite" fitHeight="192.0" fitWidth="200.0" layoutX="373.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="182.0" layoutY="57.0" text="Selecciona un Pokemon singular para ver sus datos">
+         <font>
+            <Font name="Verdana Pro Cond Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="433.0" text="Habilidades">
+         <font>
+            <Font name="Verdana Pro Cond Semibold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="415.0" layoutY="433.0" text="Movimientos">
+         <font>
+            <Font name="Verdana Pro Cond Semibold" size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="resultadoMovimientos" layoutX="373.0" layoutY="492.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="resultadoHabilidades" layoutX="26.0" layoutY="492.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="738.0" layoutY="433.0" text="Forma shiny">
+         <font>
+            <Font name="Verdana Pro Semibold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagenSpriteShiny" fitHeight="192.0" fitWidth="200.0" layoutX="697.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
